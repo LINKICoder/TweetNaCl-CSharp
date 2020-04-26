@@ -1,11 +1,12 @@
 ## TweetNaCl-CSharp
 ![](https://img.shields.io/nuget/v/TweetNaCl-CSharp)
-![](https://img.shields.io/nuget/dt/TweetNaCl-CSharp)
+![](https://img.shields.io/nuget/dt/TweetNaCl-CSharp?color=laim)
 
 
 ## Install
-[![From nuget](https://www.nuget.org/Content/gallery/img/logo-header.svg)](https://www.nuget.org/packages/TweetNaCl-CSharp/)
+[![](https://www.nuget.org/Content/gallery/img/logo-header.svg)](https://www.nuget.org/packages/TweetNaCl-CSharp/)
 [From nuget](https://www.nuget.org/packages/TweetNaCl-CSharp/)
+
 
 ## About Project
 A C# port of original [TweetNaCl](http://tweetnacl.cr.yp.to/index.html) C language implementation version 20140427.
