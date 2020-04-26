@@ -7,7 +7,7 @@
 
 using System;
 
-namespace TweetNaCl
+namespace NaCl
 {
     public class KeyPair
     {

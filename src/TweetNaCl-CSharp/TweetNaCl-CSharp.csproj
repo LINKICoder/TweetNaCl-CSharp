@@ -7,7 +7,7 @@
     <ProjectGuid>{5D4CB303-0361-47C5-B603-219167573C42}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TweetNaCl</RootNamespace>
+    <RootNamespace>NaCl</RootNamespace>
     <AssemblyName>TweetNaCl-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
