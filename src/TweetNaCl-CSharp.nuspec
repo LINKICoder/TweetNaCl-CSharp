@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TweetNaCl-CSharp</id>
+    <version>1.0.0</version>
+    <authors>LINKICoder</authors>
+    <owners>LINKICoder</owners>
+	<iconUrl>https://github.com/LINKICoder/TweetNaCl-CSharp/raw/master/icon.png</iconUrl>
+	<licenseUrl>https://github.com/LINKICoder/TweetNaCl-CSharp/raw/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LINKICoder/TweetNaCl-CSharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<title>A 100% native C# implementation of TweetNaCl for .NET</title>
+    <description>A C# port of original TweetNaCl C language implementation version 20140427</description>
+    <releaseNotes>Code prepared for use (:</releaseNotes>
+    <copyright>Copyright 2020 LINKICoder</copyright>
+    <tags>NaCl TweetNaCl Cryptography Encryption SecretBox CryptoBox</tags>
+  </metadata>
+</package>
