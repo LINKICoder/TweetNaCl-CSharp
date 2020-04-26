@@ -1,6 +1,0 @@
-language: csharp
-mono: none
-services:
-  - docker
-script:
-  - docker build --no-cache --tag tweentnacl-cs:0.1 .

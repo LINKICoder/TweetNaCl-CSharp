@@ -139,6 +139,20 @@ namespace TweetNaCl
         /// The crypto_box_keypair function randomly generates a secret key and a corresponding public key. 
         /// It guarantees that sk has crypto_box_SECRETKEYBYTES bytes and that pk has crypto_box_PUBLICKEYBYTES bytes. 
         /// </summary>
+        /// <returns>Generated KeyPair</returns>
+        public static KeyPair CryptoBoxKeypair()
+        {
+            Byte[] secretKey = new Byte[BoxSecretKeyBytes];
+            RandomBytes(secretKey);
+            Byte[] publicKey = CryptoScalarmultBase(secretKey);
+
+            return new KeyPair(publicKey, secretKey);
+        }
+
+        /// <summary>
+        /// The crypto_box_keypair function randomly generates a secret key and a corresponding public key. 
+        /// It guarantees that sk has crypto_box_SECRETKEYBYTES bytes and that pk has crypto_box_PUBLICKEYBYTES bytes. 
+        /// </summary>
         /// <param name="secretKey">generated secret key</param>
         /// <returns>generated public key</returns>
         public static Byte[] CryptoBoxKeypair(Byte[] secretKey)
