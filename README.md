@@ -29,6 +29,10 @@ A C# port of original [TweetNaCl](http://tweetnacl.cr.yp.to/index.html) C langua
 
 Implements *curve25519-xsalsa20-poly1305*.
 
+#### KeyPair CryptoBoxKeypair()
+
+The CryptoBoxKeypair function randomly generates a secret key and a corresponding public key. The secret key array must have size equal to <b>crypto_box_SECRETKEYBYTES</b>
+
 #### Byte[] CryptoBoxKeypair(Byte[] secretKey)
 
 The CryptoBoxKeypair function randomly generates a <b>secretKey</b> and a corresponding public key. The secretKey array must have size equal to <b>crypto_box_SECRETKEYBYTES</b>
